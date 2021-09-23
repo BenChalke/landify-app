@@ -1,0 +1,30 @@
+.companies {
+  position: relative;
+
+  &__background {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  &__inner {
+    margin: -1px 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+    &__logo {
+      
+      img {
+        padding: 40px 32px;
+      }
+    }
+  }
+}

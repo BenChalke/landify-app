@@ -1,0 +1,15 @@
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1200px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: unset;
+    margin: unset;
+  }
+}
+
+.img-responsive {
+  max-width: 100%;
+}

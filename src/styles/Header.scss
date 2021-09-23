@@ -1,0 +1,46 @@
+.header {
+
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    &__logo {
+      flex: 0 1 100px;
+      margin: 0 16px 0 0;
+    }
+
+    &__menu {
+      flex: 1 1 100px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+        
+      li {
+        display: inline-block;
+        margin: 0 16px;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          position: relative;
+
+          img {
+            position: absolute;
+            right: -20px;
+            top: 2px;
+          }
+        }
+      }
+    }
+
+    &__download {
+
+      img {
+        padding: 16px 6px;
+      }
+    }
+  }
+}
