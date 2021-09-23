@@ -11,7 +11,7 @@ function CtaBanner() {
 
           <div className="cta-banner__inner__content__download">
             <p>Get the App</p>
-            <a href="#"><img src="Google Play Badge.png" className="img-responsive" alt="Google-Play-Badge" /></a>
+            <a href="#"><img src="Google-Play-Badge.png" className="img-responsive" alt="Google Play Badge" /></a>
             <a href="#"><img src="App-Store-Badge.png" className="img-responsive" alt="App Store Badge" /></a>
           </div>
         </div>
