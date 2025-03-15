@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../../styles/Features.scss';
 
 
@@ -49,9 +51,9 @@ function Features() {
           <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
         </div>
         <div className="features__inner__content">
-          {features.map((feature) => {
+          {features.map((feature, index) => {
             return(
-              <div className="features__inner__content__item">
+              <div key={index} className="features__inner__content__item">
                 <img src={'icons/' + feature.logo} alt={feature.title + ' icon'} className="img-responsive"/>
                 <h5>{feature.title}</h5>
                 <p>{feature.content}</p>

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../../styles/HomeHero.scss';
 import Header from '../Header/Header';
 

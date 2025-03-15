@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Companies from './components/Companies/Companies';
 import CtaBanner from './components/CtaBanner/CtaBanner';
 import Features from './components/Features/Features';

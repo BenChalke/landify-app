@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../styles/Companies.scss';
 
 
@@ -8,9 +9,9 @@ function Companies() {
     <div className="companies">
       <div className="companies__background"></div>
       <div className="companies__inner">
-        {companies.map((company) => {
+        {companies.map((company, index) => {
           return(
-            <div className="companies__inner__logo">
+            <div key={index} className="companies__inner__logo">
               <img src={'logos/' + company + '.svg'} alt={company + ' logo'} className="img-responsive"/>
             </div>
           )
